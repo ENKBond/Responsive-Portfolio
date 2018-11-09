@@ -164,3 +164,40 @@ footer {
     border-top: 2px solid #4aaaa5;
     bottom: 0px;
 }
+
+@media screen and (max-width: 640px) {
+
+    .navTop {
+        height: 100px;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .mainNav {
+        float: left;
+        width: 100%;
+        top: 40px;
+        padding-left: 110px;
+    }
+
+    .wrapper {
+        top: 70px;
+        width: 100%;
+        overflow: auto;
+    }
+    
+    #portfolio-about-me {
+        float: none;
+        max-width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    
+}
