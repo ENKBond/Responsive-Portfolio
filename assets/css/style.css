@@ -266,8 +266,22 @@ footer {
 
     .container:nth-of-type(even) {
         margin-left: 25px;
-        
     }
-    
+}
 
+@media screen and (max-width: 980px) {
+
+    .wrapper {
+        max-width: 70%;
+        float: left;
+        margin-left: 10px;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
+
+    #portfolio-about-me {
+        margin-left: 20px;
+    }
 }
